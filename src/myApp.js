@@ -1,6 +1,6 @@
 import React from "react";
 import Tom from "./Tom";
-import Clock from "./Clock";
+import Clock from "./components/Clock";
 
 class AppCom extends React.Component{
 

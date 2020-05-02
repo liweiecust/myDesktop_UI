@@ -5,14 +5,19 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import myApp from "./myApp";
-import Clock from "./Clock";
+import Clock from "./components/Clock";
 
 import Tom from "./Tom";
 import Desktop from "./myDesktop";
+import Desktop2 from './components/desktop'
+import Folder from './components/Folder'
+import ContextMenu from './components/contextMenu'
+import ClickMe from './components/testContextClick';
 
 ReactDOM.render(
- <Desktop/>,
-  document.getElementById('root')
+ //<Folder path="C:/Users/liwe"/>,
+ <ClickMe/>, 
+ document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
